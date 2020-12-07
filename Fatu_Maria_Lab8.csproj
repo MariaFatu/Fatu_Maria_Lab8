@@ -5,12 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Fatu_Maria_Lab8Context\**" />
     <Compile Remove="Pages\NewFolder1\**" />
     <Compile Remove="Pages\Shared\NewFolder\**" />
+    <Content Remove="Data\Fatu_Maria_Lab8Context\**" />
     <Content Remove="Pages\NewFolder1\**" />
     <Content Remove="Pages\Shared\NewFolder\**" />
+    <EmbeddedResource Remove="Data\Fatu_Maria_Lab8Context\**" />
     <EmbeddedResource Remove="Pages\NewFolder1\**" />
     <EmbeddedResource Remove="Pages\Shared\NewFolder\**" />
+    <None Remove="Data\Fatu_Maria_Lab8Context\**" />
     <None Remove="Pages\NewFolder1\**" />
     <None Remove="Pages\Shared\NewFolder\**" />
   </ItemGroup>
@@ -31,10 +35,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\Fatu_Maria_Lab8Context\" />
   </ItemGroup>
 
 </Project>

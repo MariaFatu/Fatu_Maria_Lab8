@@ -4,14 +4,16 @@ using Fatu_Maria_Lab8.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Fatu_Maria_Lab8.Migrations
 {
     [DbContext(typeof(Fatu_Maria_Lab8Context))]
-    partial class Fatu_Maria_Lab8ContextModelSnapshot : ModelSnapshot
+    [Migration("20201204131901_BookCategory1")]
+    partial class BookCategory1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
